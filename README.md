@@ -26,7 +26,7 @@ Step 2: Run Below code to generate library.
 $python lib_enumeration.py <BB_1.smi> <BB_2.smi> <Products.smi>
 
 For example:
-I will generate thioether from two building blocks (BB-thiol.smi -- a library of thiols; BB-acrylamides.smi -- a library of acrylamides) from a reaction (reaction smarts are provided in the "lib_enumeration.py" script. For new excercise, uses needs to provide custom building blocks and reaction smarts.
+I will generate thioether from two building blocks (BB-thiol.smi -- a library of thiols; BB-acrylamides.smi -- a library of acrylamides) from a reaction (reaction smarts are provided in the "lib_enumeration.py" script. For new excercise, uses needs to provide custom building blocks and reaction smarts. Run the below command to generate thioethers. Results are saved as "test_prod.smi".
 
 $python lib_enumeration.py BB_thiol.smi BB_acrylamides.smi.smi test_prod.smi
 
